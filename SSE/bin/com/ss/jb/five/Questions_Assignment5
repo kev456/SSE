@@ -1,0 +1,4 @@
+1. You would use LocalDateTime class to store your birthday in years, months, days, seconds, and nanoseconds
+2. To find the previous Thursday use TemporalAdjuster.previous(DayofWeek.THURSDAY)
+3. ZoneOffset tracks only the absolute offset from UTC.
+4. To convert instant to ZonedDateTime use ZonedDateTime.ofInstant method. To convert ZonedDateTime to instant use ZonedDateTime.now().toIstant() from the ChronoZonedDateTime interface.
